@@ -1,0 +1,259 @@
+body {
+    background-color: #202227;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    margin-top: none;
+    width: 100%;
+
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+input {
+    display: block;
+    margin-top: 0.3rem;
+    margin-bottom: 0.6rem;
+    background-color: #282A2F;
+    border: 1px solid #8692A6;
+    width: 100%;
+    padding: 0.8rem;
+    border-radius: 0.25rem;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    font-size: 0.75rem;
+    color: #8692A6;
+    box-sizing: border-box;
+
+}
+
+label {
+    color: #696F79;
+    font-weight: 500;
+    font-family: 'poppins', sans-serif;
+    font-size: 0.75rem;
+
+}
+
+hr {
+    width: 80%;
+
+}
+
+button {
+    width: 100%;
+    margin-top: 0.8rem;
+    margin-bottom: 0.3rem;
+    padding: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.15rem;
+
+}
+
+button:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+#logo-box {
+    margin-left: -17.5px;
+    margin-bottom: 1rem;
+}
+
+#logo-img {
+    height: 32px;
+    margin-bottom: -9px;
+    margin-right: -0.8px;
+}
+
+#logo-name {
+
+    display: inline-block;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75rem;
+    font-weight: 600;
+    /* Ensures margin-top works properly */
+}
+
+/* item-2 */
+
+#heading {
+
+    width: 100%;
+    margin-bottom: 0.8rem;
+}
+
+.subText {
+    color: #8692A6;
+    font-weight: 400;
+    margin-top: -0.4rem;
+    margin-bottom: 0.6rem;
+    font-size: 0.9rem;
+
+}
+
+#form-container {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+
+.password-container {
+    position: relative;
+}
+
+
+
+.eye-icon {
+    position: absolute;
+    right: 1rem;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #7F8B9E;
+    font-size: small;
+}
+
+/* input::selection {
+    border: 1px solid green;
+} */
+
+.checkbox-item {
+    display: flex;
+    align-items: center;
+    margin-top: 0.2rem;
+}
+
+.checkbox-item .term {
+    margin-right: 0.8rem;
+    width: 4%;
+    margin-left: 0;
+    color: #696F79;
+}
+
+
+
+#submitButton {
+
+    background-color: #5871EB;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    color: white;
+
+}
+
+#submitButton:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+
+#ruler {
+    display: grid;
+    grid-template-columns: 15fr 1fr 15fr;
+}
+
+#ruler span {
+    text-align: center;
+    font-size: 0.6rem;
+    font-family: 'Inter', sans-serif;
+    margin-top: 0.3rem;
+    color: #BABABA;
+
+}
+
+#firstHr {
+    margin-left: 0;
+    color: #F5F5F5;
+
+}
+
+#secondHr {
+    margin-right: 0;
+    color: #F5F5F5;
+
+
+}
+
+#googleButton {
+    background-color: #000000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.google-icon {
+    width: 20px;
+    height: 20px;
+    background: url('imgs/google-icon.png') no-repeat center center;
+    background-size: contain;
+    position: relative;
+    left: 0.5rem;
+
+
+    /* Adjust the spacing between the icon and button text */
+}
+
+.center {
+    display: inline-block;
+    margin: auto;
+}
+
+
+
+
+#mascot-logo {
+    width: 45%;
+    /* Adjust the width as needed */
+    display: block;
+    /* Ensures margin-top works properly */
+    margin: 0 auto;
+    /* Centers the image horizontally */
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #8692A6;
+}
+
+#login-data {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    width: 50%;
+    height: 70vh;
+    padding-bottom: 3rem;
+
+    flex-direction: column;
+    margin: 10px auto;
+
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1.2fr;
+}
+
+#submitLink {
+    text-decoration: none;
+}

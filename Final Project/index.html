@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+
+    <!-- our css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font-->
+    <!--poppins-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap" rel="stylesheet">
+
+    <!--font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+
+
+</head>
+
+<body>
+
+
+    <div class="grid-container"> <!-- Parent Container -->
+        <div class="grid-item" id="login-data"> <!-- column-1 -->
+
+            <nav class="navbar" id="logo-box"> <!--  item-1 inside this column -->
+
+                <img src="imgs/logo.png" alt="logo" id="logo-img">
+                <span id="logo-name">Wateroo</span>
+
+            </nav>
+
+            <div id="heading"> <!--item-2 -->
+
+
+                <h2>Create an Account 👋</h2>
+                <div class="subText">
+                    Kindly fill in your details to create an account
+                </div>
+            </div>
+
+            <div id="form-container"> <!-- item-3 -->
+                <form action="dashboard.html" method="">
+                    <div class="formItem">
+                        <label for="fullName" id="label-1">Your fullname*</label>
+                        <input type="text" id="fullName" placeholder="Enter your name" name="fullName">
+                    </div>
+                    <div class="formItem">
+                        <label for="email" id="label-2">Email address*</label>
+                        <input type="email" id="email" placeholder="Enter email address" name="email">
+                    </div>
+                    <div class="formItem" id="pass">
+                        <label for="password" id="label-3">Create password*</label>
+                        <div class="password-container">
+                            <input type="password" id="password" placeholder="Create a password" name="password">
+                            <span class="eye-icon far fa-eye" id="togglePassword"></span>
+                        </div>
+                    </div>
+
+                    <div class="formItem checkbox-item">
+                        <input type="checkbox" name="terms" id="terms" class="term">
+                        <label for="terms">I agree to terms & conditions</label>
+                    </div>
+
+
+
+
+
+
+                    <input type="submit" id="submitButton">
+
+
+
+                    <!-- <button id="submitButton" type="submit">Register Account</button> -->
+                </form>
+
+
+
+                <div id="ruler">
+                    <hr id="firstHr">
+                    <span> Or </span>
+                    <hr id="secondHr">
+                </div>
+
+                <div id="google">
+                    <button id="googleButton" type="submit">
+                        <span class="google-icon"></span> <span class="center">Register with Google</span>
+                    </button>
+                </div>
+
+
+
+
+            </div>
+
+        </div>
+        <div class="grid-item" id="logo-container">
+            <img src="imgs/mascot.png" alt="mascot-logo" id="mascot-logo">
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
